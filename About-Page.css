@@ -1,0 +1,227 @@
+.about-page-child {
+    height: 1958px;
+    width: 1951px;
+    position: absolute;
+    margin: 0 !important;
+    top: -762px;
+    right: -725px;
+    filter: blur(50px);
+    border-radius: 50%;
+    background: radial-gradient(50% 50%at 50% 50%, #97ff95, #739a77);
+  }
+  .ollcf {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 78px;
+  }
+  .ollcf-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 820px 0 0;
+  }
+  .about-senior-high {
+    margin: 0;
+    width: 505px;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .blank-line,
+  .our-lady-of {
+    margin: 0;
+  }
+  .httpsollcfeduph1 {
+    text-decoration: underline;
+  }
+  .httpsollcfeduph {
+    color: inherit;
+  }
+  .for-more-information-about-our {
+    margin: 0;
+  }
+  .our-lady-of-container {
+    margin: 0;
+    width: 612px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+    max-height: 468px;
+    word-break: break-word;
+    z-index: 1;
+  }
+  .about-school,
+  .school-name {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .school-name {
+    flex-direction: row;
+    padding: 0 0 0 4px;
+    box-sizing: border-box;
+    color: #000;
+  }
+  .about-school {
+    flex-direction: column;
+    gap: 45px;
+  }
+  .about,
+  .contact-us,
+  .home,
+  .strands {
+    position: relative;
+    display: inline-block;
+    min-width: 35px;
+    z-index: 1;
+  }
+  .about,
+  .contact-us,
+  .strands {
+    min-width: 37px;
+  }
+  .contact-us,
+  .strands {
+    min-width: 47px;
+  }
+  .contact-us {
+    min-width: 66px;
+    white-space: nowrap;
+  }
+  .links {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+}
+.white-line-child {
+  align-self: stretch;
+  height: 5px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.separator,
+.white-line {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.white-line {
+  height: 20px;
+  width: 116px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+  z-index: 1;
+}
+.separator {
+  width: 348px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  max-width: 100%;
+}
+.about-content,
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.navigation {
+  width: 545px;
+  align-items: flex-start;
+  gap: 10px;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-palegreen);
+  font-family: var(--font-inter);
+}
+.about-content {
+  width: 616px;
+  align-items: flex-end;
+  gap: 229px;
+  font-size: var(--font-size-13xl);
+  color: #fff;
+}
+.about-page {
+  width: 100%;
+  position: relative;
+  background-color: #84cd86;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 138px 74px 21px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: 24px;
+  color: var(--color-palegreen);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 825px) {
+  .ollcf-wrapper {
+    padding-top: 533px;
+    box-sizing: border-box;
+  }
+  .about-senior-high,
+  .our-lady-of-container {
+    font-size: var(--font-size-7xl);
+  }
+  .about-page {
+    flex-wrap: wrap;
+    padding-left: var(--padding-18xl);
+    padding-right: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .about-school {
+    gap: 22px;
+  }
+  .links {
+    display: none;
+  }
+  .navigation {
+    width: 0;
+  }
+  .about-content {
+    gap: 114px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ollcf {
+    font-size: var(--font-size-lgi);
+  }
+  .ollcf-wrapper {
+    padding-top: 346px;
+    box-sizing: border-box;
+  }
+  .about-senior-high,
+  .our-lady-of-container {
+    font-size: var(--font-size-lgi);
+  }
+  .about-content {
+    gap: 57px;
+  }
+}

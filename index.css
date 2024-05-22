@@ -1,0 +1,181 @@
+.topbghome {
+    width: 1770px;
+    height: 1881px;
+    position: absolute;
+    margin: 0 !important;
+    top: -1315px;
+    left: -166px;
+    filter: blur(50px);
+    border-radius: 50%;
+    background: radial-gradient(50% 50%at 50% 50%, #97ff95, #739a77);
+  }
+  .our-lady-of {
+    margin: 0;
+    width: 1046px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .our-lady-of-lourdes-college-fo-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 2px 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+    font-size: 96px;
+    color: #a9f6a7;
+    font-family: var(--font-inter);
+  }
+  .home,
+  .ollcf {
+    position: relative;
+    display: inline-block;
+  }
+  .ollcf {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    min-width: 78px;
+    white-space: nowrap;
+  }
+  .home {
+    min-width: 35px;
+  }
+  .home-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 40px 0 41px;
+  }
+  .white-line-child {
+    align-self: stretch;
+    height: 5px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frame-group,
+  .white-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .white-line {
+    align-self: stretch;
+    height: 20px;
+    align-items: flex-start;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .frame-group {
+    width: 116px;
+    align-items: flex-end;
+    gap: 4px;
+  }
+  .about {
+    position: relative;
+    display: inline-block;
+    min-width: 37px;
+  }
+  .about-wrapper {
+    width: 77px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .strands {
+    position: relative;
+    display: inline-block;
+    min-width: 47px;
+  }
+  .strands-wrapper {
+    width: 87px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .contact-us {
+    position: relative;
+    display: inline-block;
+    min-width: 66px;
+    white-space: nowrap;
+  }
+  .frame-parent {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 80px;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-xs);
+  }
+  .frame-parent,
+  .home-page,
+  .ollcf-parent {
+    display: flex;
+    align-items: flex-start;
+  }
+  .ollcf-parent {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: var(--gap-xl);
+  }
+  .home-page {
+    width: 100%;
+    position: relative;
+    background-color: #84cd86;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 338px 73px 28px;
+    box-sizing: border-box;
+    gap: 271px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: 24px;
+    color: var(--color-palegreen);
+    font-family: var(--font-inter);
+  }
+  @media screen and (max-width: 750px) {
+    .our-lady-of {
+      font-size: 48px;
+    }
+    .home-page {
+      gap: 135px;
+      padding-left: var(--padding-17xl);
+      padding-right: var(--padding-17xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 675px) {
+    .frame-parent {
+        gap: 40px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .our-lady-of {
+      font-size: 29px;
+    }
+    .frame-parent {
+      gap: var(--gap-xl);
+    }
+    .home-page {
+      gap: 68px;
+    }
+  }
